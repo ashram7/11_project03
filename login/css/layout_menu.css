@@ -1,0 +1,69 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: 'Malgun Gothic', '맑은 고딕',Dotum, '돋움', Arial, sans-serif, 'Apple Gothic';}
+ul, ol, dl, li{list-style: none;}
+img{border: 0;vertical-align: top;}
+a{text-decoration: none; color: #333333;}
+a:link{color: #333333;}
+a:visited{color: #333333;}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+.cf:after{clear: both; content: ''; display: block;}
+
+
+/* body{background: url(../../sample/sub1Background.png) no-repeat top center;opacity:80%;} */
+
+header{width: 100%;height: 107px; background:#06519d;}
+	.logo{overflow: hidden;}
+	.logo a{display: block;width: 260px;padding: 50px;margin: 0 auto;}
+	.logo a img{height: 60px;}
+section{width: 100%;height: 666px;/* background:url(../images/back.png) no-repeat center; background-size: cover; */overflow: hidden;}
+
+.loginWrap{width: 1100px; height: 590px; /* border: 1px solid #555555; */background: #ffffff;margin: 120px auto 0;padding: 70px; box-sizing: border-box;text-align: center;/* box-shadow: 1px 1px 1px #333333; */}
+	.loginWrap .head{border-right: 1px solid #dddddd;padding-right: 5px;}
+	.loginWrap h2{font-size: 40px; color: #555555;margin-bottom: 10px;}
+	.loginWrap h2 span{font-weight: bold;color: #00a3ff;margin-bottom: 10px;}
+	.loginWrap p{font-size: 14px; font-weight: bold;color: #456078;margin-bottom: 77px;}
+	.loginWrap .inputWrap{width: 460px;margin-left: 20px;}
+	.loginWrap .inputWrap .check{float: right;}
+	.loginWrap input.id{width: 450px; height: 70px;padding: 20px; box-sizing: border-box;margin-bottom:20px;border-radius: 60px;}
+	.loginWrap input.pass{width: 450px; height: 70px;padding: 20px; box-sizing: border-box;border-radius: 60px;margin-bottom: 15px;}
+	.loginWrap input.logBtn{width: 176px; height: 162px;padding: 20px; box-sizing: border-box;margin-bottom:20px;border-radius: 60px;background: #00a3ff;color:#ffffff;font-size: 16px;font-weight: bold;}
+	.loginWrap>p{float: right;margin-right: 30px;margin-bottom: 38px;}
+	
+	.userSet{width: 458px; margin:70px 0 0 310px;}
+	.userSet li{float: left;width: 100px;text-align: center;}
+	.userSet li.pass{width: 138px;}
+	.userSet li.line{width: 40px;padding: 10px;}
+	.userSet li a{display: block;padding: 10px;}
+	.gray{color: #555555;}
+
+footer{width: 100%;height: 50px;}
+	footer p{text-align: center;color: #dddddd;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

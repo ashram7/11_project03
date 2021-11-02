@@ -1,0 +1,31 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은 고딕', '돋움',sans-serif;}
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+
+/* body{background: url(../images/boardBackground.png) no-repeat center top;opacity: 50%;} */
+
+
+header{width: 100%; height: 200px; background: #222222;}
+	#headerWrap{width: 1420px; height: 143px;margin: 0 auto; background: #888888;}
+		#fastMenu{width:100px;height: 50px;margin-left: 50px;background: #dddddd;}
+		#topBanner{float: left;width: 295px; height: 55px; margin-top: 15px;background: #aaaaaa;}
+		#mainLogo{float: left;margin-left: 270px;width: 288px; height:75px;  background: #aaaaaa;}
+		#langNumLog{float: right; margin-top: 18px;width: 200px; height: 70px; background: #aaaaaa;}
+	#mainNav{width: 100%; height:57px; background: #eeeeee; }
+
+section{width: 100%; height: 1947px;background: #dddddd;overflow: auto;}
+	#boardTitle{width: 383px; height: 157px; margin: 0 auto;margin-top: 83px;background: #333333;}
+	#boardTab{width: 1420px; height: 130px; margin: 0 auto;margin-top: 73px;background: #333333;}
+	#boardContent{width: 1420px; height: 1139px; margin: 0 auto; margin-top: 43px;background: #333333;}
+	#pageNum{width: 682px; height: 52px; margin: 0 auto; margin-top: 45px;background: #333333;}
+	#searchBox{width: 513px; height: 52px; margin: 0 auto; margin-top: 64px;background: #333333;}
+	
+	
+	
+footer{width: 100%; height: 542px; }
+	#familySite{width: 100%; height:76px; background: #555555;}
+	#footBot{width: 100%; height:466px; background: #222222;}

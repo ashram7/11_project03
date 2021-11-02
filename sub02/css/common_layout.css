@@ -1,0 +1,34 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은 고딕', '돋움',sans-serif;}
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+
+/* body{background: url(../images/sub2Background.png) no-repeat center top;} */
+
+
+header{width: 100%; height: 200px; background: #222222;}
+	#headerWrap{width: 1420px; height: 143px;margin: 0 auto; background: #888888;}
+		#fastMenu{width:100px;height: 50px;margin-left: 50px;background: #dddddd;}
+		#topBanner{float: left;width: 295px; height: 55px; margin-top: 15px;background: #aaaaaa;}
+		#mainLogo{float: left;margin-left: 270px;width: 288px; height:75px;  background: #aaaaaa;}
+		#langNumLog{float: right; margin-top: 18px;width: 200px; height: 70px; background: #aaaaaa;}
+	#mainNav{width: 100%; height:57px; background: #eeeeee; }
+
+
+#contentTit{margin: 0 auto;margin-top:94px;margin-bottom: 35px;width: 1420px; height: 140px;background: #333333;}
+#contentWrap{margin: 0 auto; width: 1420px; height: 2118px;background: #dddddd;}
+	#mainPtf{width: 1420px; height: 693px;background: #555555;margin-bottom: 50px;}
+	#contents{width: 1420px; height: 1375px;margin-bottom: 40px;background: #888888;}
+		.menuTab{width: 1420px; height: 63px;background: #555555;margin-bottom: 55px;}
+		#rowWrap{width: 1420px;height: 1107px;margin-bottom: 53px;background: #dddddd;}
+			.contentRow{width: 1420px; height: 346px;background: #555555;margin-bottom: 34px;}
+				.contentCell{float: left;width: 337px; height: 346px; margin-right: 24px;background: #ffffff;}
+					.last{margin: 0;}
+		.pageNum{margin: 0 auto;margin-top: 20px; width: 210px; height:50px;background: #555555;}
+		
+footer{width: 100%; height: 542px; }
+	#familySite{width: 100%; height:76px; background: #555555;}
+	#footBot{width: 100%; height:466px; background: #222222;}

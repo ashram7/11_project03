@@ -1,0 +1,42 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은 고딕', '돋움',sans-serif;}
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+
+/* body{background: url(../images/greenBackground.png) no-repeat center top;opacity: 50%;} */
+
+
+header{width: 100%; height: 200px; background: #222222;}
+	#headerWrap{width: 1420px; height: 143px;margin: 0 auto; background: #888888;}
+		#fastMenu{width:100px;height: 50px;margin-left: 50px;background: #dddddd;}
+		#topBanner{float: left;width: 295px; height: 55px; margin-top: 15px;background: #aaaaaa;}
+		#mainLogo{float: left;margin-left: 270px;width: 288px; height:75px;  background: #aaaaaa;}
+		#langNumLog{float: right; margin-top: 18px;width: 200px; height: 70px; background: #aaaaaa;}
+	#mainNav{width: 100%; height:57px; background: #eeeeee; }
+#wrap{width: 100%; height: 4848px; background: #888888;}
+	#slideBanner{width: 100%; height: 500px;margin-bottom: 40px;background:#dddddd;}
+	#quickMenu{margin: 0 auto;margin-bottom: 50px;width: 1420px; height: 570px; background: #999999;}
+		#quickIcon{float: left;width: 600px; height: 100px; margin-left: 15px;background: #eeeeee;}
+		#mainNotice{float: right; width: 730px; height: 100px;background: #eeeeee;margin-bottom: 80px;}
+		#menuSearch{float: left;width: 1420px; height: 390px; background: #eeeeee;}
+			.msTit{width: 1420px; height: 58px; background: #aaaaaa;}
+	#portfolio{width: 100%;height: 875px;margin-bottom: 130px;  background: #aaaaaa;}
+		#pfTit{margin: 0 auto;margin-bottom: 15px;width: 1420px; height: 105px;background: #eeeeee;}
+		#pfContent{width: 100%; height: 755px;background: #eeeeee;}
+	#studentReview{margin: 0 auto;margin-bottom: 163px; width: 1420px; height: 630px; background: #111111; }
+		#reviewTitle{width: 1420px;height: 110px;background: #dddddd;}
+		#jobInterview{float: left;width: 835px; height: 520px; background: #eeeeee; }
+		#courseReview{float: left;width: 585px; height: 520px; background: #cccccc; }
+	#empolySection{width: 100%; height: 665px; margin-bottom: 100px;background: #dddddd;}
+	#channelSection{margin: 0 auto;margin-bottom: 80px;width: 1420px;height: 850px;}
+		#csTit{width: 1420px;height: 125px;background: #aaaaaa;}
+		#youtubeSection{width: 1420px;height: 365px;background: #eeeeee;}
+		#snsSection{width: 1420px;height: 365px;background: #aaaaaa;}
+	#quickInfo{margin: 0 auto;width: 1420px; height: 100px;background: #dddddd;}
+	
+footer{width: 100%; height: 542px; }
+	#familySite{width: 100%; height:76px; background: #555555;}
+	#footBot{width: 100%; height:466px; background: #222222;}

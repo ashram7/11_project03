@@ -1,0 +1,63 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은 고딕', '돋움',sans-serif;}
+img{border: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.cf:after{content: ''; display: block; clear: both;}
+
+body{background: url(../images/sub3Background.png) no-repeat center top;}
+
+
+header{width: 100%; height: 200px; background: #222222;}
+	#headerWrap{width: 1420px; height: 143px;margin: 0 auto; background: #888888;}
+		#fastMenu{width:100px;height: 50px;margin-left: 50px;background: #dddddd;}
+		#topBanner{float: left;width: 295px; height: 55px; margin-top: 15px;background: #aaaaaa;}
+		#mainLogo{float: left;margin-left: 270px;width: 288px; height:75px;  background: #aaaaaa;}
+		#langNumLog{float: right; margin-top: 18px;width: 200px; height: 70px; background: #aaaaaa;}
+	#mainNav{width: 100%; height:57px; background: #eeeeee; }
+
+section{width: 100% ;height: 3339px;background:#222222;}
+	#introTit{width: 100%; height: 528px; background: #555555;}
+		#mainTwrap{margin: 0 auto;width: 1420px;height: 528px; }
+			.mainT{margin: 0 auto;width: 710px; height: 528px; background: #eeeeee;}
+	#jobTeachers{width: 100%; height: 1222px;}
+		#jobTgroup{position: relative;margin: 0 auto; width: 1420px; height: 1222px;background: #ffffff;}
+			#JCwrap{position: absolute;top: 120px;width: 1420px; height:957px; background: #555555;}
+				.jobTcell1{width: 706px; height: 315px; background: #111111;margin:0 7px 7px 0;}
+				.jobTcell2{width: 707px; height: 315px; background: #111111;margin-bottom: 7px;}
+				.jobTcell3{width: 348px; height: 313px; margin: 0 7px 7px 0; background: #111111;}
+				.jobTcell4{width: 707px; height: 313px; margin-right: 7px; background: #111111;}
+				.jobTcell5{clear: left;width: 707px; height: 313px; background: #111111;}
+				.jobTcell6{width: 348px; height: 313px; margin-left: 7px;background: #111111;}
+				.jobTcell7{margin-top: -320px;width: 351px; height: 631px; background: #111111;}
+	
+	#licenseTeachers{width: 100%;height: 1589px; background: #777777;}
+		#licTgroup{position: relative;margin: 0 auto; width: 1420px; height: 1589px;background: #dddddd;}
+			#LCwrap{position: absolute;top: 160px;width: 1420px; height:1273px; background: #111111;}
+				.licTcell1{width: 707px; height:314px; margin:0 6px 7px 0; background: #eeeeee; }
+				.licTcell2{width: 707px; height:314px; background: #eeeeee; }
+				.licTcell3{width: 707px; height:314px; margin:0 6px 6px 0;background: #eeeeee; }
+				.licTcell4{width: 346px; height:314px; margin-right: 6px;background: #eeeeee; }
+				.licTcell5{clear: left;width: 349px; height:312px; margin:0 6px 7px 0;background: #eeeeee; }
+				.licTcell6{width: 707px; height:312px; margin-right:6px;background: #eeeeee; }
+				.licTcell7{width: 352px; height:633px; margin-top:-321px;background: #eeeeee; }
+				.licTcell8{clear: left;width: 707px; height:312px; margin-right: 7px;background: #eeeeee; }
+				.licTcell9{width: 706px; height:312px;background: #eeeeee; }
+			
+footer{width: 100%; height: 542px; }
+	#familySite{width: 100%; height:76px; background: #555555;}
+	#footBot{width: 100%; height:466px; background: #222222;}
+
+
+
+
+
+
+
+
+
+
+

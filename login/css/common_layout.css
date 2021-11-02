@@ -1,0 +1,38 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은 고딕', '돋움',sans-serif;}
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+
+/* body{background: url(../images/sub1Background.png) no-repeat center top;}
+ */
+
+header{width: 100%; height: 200px; background: #222222;}
+	#headerWrap{width: 1420px; height: 143px;margin: 0 auto; background: #888888;}
+		#fastMenu{width:100px;height: 50px;margin-left: 50px;background: #dddddd;}
+		#topBanner{float: left;width: 295px; height: 55px; margin-top: 15px;background: #aaaaaa;}
+		#mainLogo{float: left;margin-left: 270px;width: 288px; height:75px;  background: #aaaaaa;}
+		#langNumLog{float: right; margin-top: 18px;width: 200px; height: 70px; background: #aaaaaa;}
+	#mainNav{width: 100%; height:57px; background: #eeeeee; }
+
+section{width: 100%;height: 3757px; background: #888888;}
+	#contentTit{margin: 0 auto;margin-bottom: 120px;width: 1420px; height: 307px; background: #aaaaaa;}
+	#videoSect{margin: 0 auto;margin-bottom: 57px;width: 1420px; height: 560px; background: #eeeeee;}
+	#curriculumList1{margin:0 auto;margin-bottom: 210px;width: 1420px; height: 598px; background: #aaaaaa;}
+	#curriculumList2{margin:0 auto;width: 1420px; height: 1905px; background: #eeeeee;}
+		#curriculum1Wrap{margin: 0 auto;width: 1420px; height: 598px; background: #222222;}
+			#cc1Tit{width: 1420px; height: 102px; background: #eeeeee;}
+			#cc1Row{margin: 0 auto;width: 1180px; height: 496px;background: #eeeeee;}
+				.ccCell1{float: left;width: 278px; height: 496px; margin-right: 22px;background: #aaaaaa;}
+				.ccCell1.last{width: 278px; height: 496px;float: left;margin: 0;}
+		#curriculum2Wrap{margin: 0 auto;width: 1420px; height: 1712px; background: #222222;}
+			#cc2Tit{width: 1420px; height: 193px; background: #dddddd;}
+			.cc2Row{margin: 0 auto;margin-bottom: 52px; width: 1180px; height: 493px;background: #eeeeee;}
+				.ccCell2{float: left;width: 280px; height: 496px; margin-right: 20px;background: #aaaaaa;}
+				.ccCell2.last{width: 276px; height: 496px;float: left;margin: 0;}
+	
+footer{width: 100%; height: 542px; }
+	#familySite{width: 100%; height:76px; background: #555555;}
+	#footBot{width: 100%; height:466px; background: #222222;}

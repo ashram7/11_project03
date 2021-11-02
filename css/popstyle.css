@@ -1,0 +1,10 @@
+﻿*{margin: 0;padding: 0; border:0;}
+a{text-decoration:none;}
+.cf:after{content: ''; display: block; clear: both;}
+
+.popupWrap{width:540px; height: 600px;background:#60a1c9;}
+.popupWrap>a{width:540px; height: 540px;display: block;}
+.popupWrap p{position: absolute;top: 475px;left: 355px; height: 20px;color: #777777;font-weight: bold;text-decoration: underline;}
+.popupWrap>img{width: 540px; height: 600px;}
+.popupWrap>input[type=submit]{float: right;margin-right: 20px;padding: 10px;border-radius: 15px;font-size: 15px;letter-spacing: 1px;background:#1b7ff2;color: #ffffff;font-weight: bold;box-shadow: 1px 1px 1px #777777;}
+.popupWrap>input[type=submit]:hover{background: #084f9e;}

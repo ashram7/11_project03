@@ -1,0 +1,7 @@
+﻿#searchBox select{margin-top: 2px;}
+#searchBox input {margin-top: -27px;}
+#searchBox button{position: relative; top: 3px;}
+#qnaContent .innerWrap{display: block;}
+#qnaContent label{cursor: default;}
+.FsnsWrap ul{width:1000px;}
+.FbotWrap ul{width:1200px;}

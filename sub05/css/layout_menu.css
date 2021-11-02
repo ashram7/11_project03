@@ -1,0 +1,49 @@
+﻿html{overflow-y: scroll;}
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{font-family: '맑은 고딕', '돋움',sans-serif;}
+img{border: 0;}
+.cf:after{content: ''; display: block; clear: both;}
+.cb{clear: both;}
+
+
+section{width: 100%; height: 100%;overflow-x: hidden;/* background: #dddddd; */}
+#wrap{width: 1420px; margin:0 auto;}
+	#boardTitle{width: 373px;height: 183px;margin:70px auto;}
+	#searchBox{margin: 70px auto 70px;}
+	.gray{color:#bbbbbb;}
+	#boardTab{width: 1420px; height: 130px;background: #efefef;margin-bottom: 60px;}
+		#boardTab li{padding: 15px 23px; margin-left:60px;float: left;cursor: pointer;}
+ 	
+	#qnaContent>div:hover{background: #ffffee;}
+	#qnaContent>div{box-sizing: border-box;}
+	#qnaContent .first{border-top: 3px solid #464637;border-radius: 3px; }
+	#qnaContent>div>div{line-height: 88px; height: 88px;text-align: center;float: left; border-bottom: 2px dotted #dddddd;}
+	#qnaContent>div:hover>div{background: #efefef;}
+	
+	#qnaContent>div .cat{width: 226px;}
+	#qnaContent>div .plus{width: 200px;padding-top:30px;height: 58px;display:block;}
+	#qnaContent>div .label{display:block;}
+	#qnaContent .title{width: 994px;text-align: justify;}
+	#qnaContent .title .lable{display:block;}
+	#qnaContent .innerWrap{height: auto; width: 96%;text-align: left; padding: 2%;}
+	
+	.closed{display:none;}
+	#qnaContent input[type="radio"]{display: none;}
+	#qnaContent input:checked~div.innerWrap{display: block;}
+	#qnaContent input:checkde~div.title>label{cursor: default;}
+	#qnaContent input:checkde~div.plus>label{cursor: default;}
+	#qnaContent label{cursor: pointer;line-height: 88px; height: 58px;display: block;}
+
+	.answerTit{text-align: justify; font-weight: bold; font-size: 16px; backgroundL #dfdfdf; padding: 10px 20px;margin-left: 200px;line-height: 26px;border-bottom: 1px dotted #dddddd;width: 1000px;}
+	.answerCon{text-align:justify; padding: 10px 20px; background: #ffffff; line-height: 24px; margin-left: 200px;width: 1000px;}
+	
+	
+	
+	#pageNum{margin: 45px auto 70px;}
+	#quickMenu{width: 1420px; height: 70px; margin: 0 auto 50px; }
+		#quickMenu a{display: block;width: 343px; height: 70px;background:#ffffff;padding:25px 0 0 20px;margin: 0 auto;margin-right: 15px;border-radius: 5px;border:1px solid #aaaaaa;border-right: 15px solid #aaaaaa;box-sizing: border-box;font-weight: bold;}
+		#quickMenu a:hover{background:#2897ee;border-right: 1px solid #aaaaaa;border-left: 15px solid #aaaaaa;color: #ffffff;padding-left: 20px;}
+		#quickMenu a.last{margin-right: 0px;}
+	
