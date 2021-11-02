@@ -1,0 +1,31 @@
+<?php header("Content-Type:text/html;charset=utf-8"); ?>
+<?php 
+  include "../include/define.php";
+    
+  $id   = $_POST["id"]; 
+  $pass = $_POST["pass"]; 
+  $name = $_POST["name"]; 
+  $email1  = $_POST["email1"]; 
+  $email2  = $_POST["email2"];
+  
+  $email = $email1."@".$email2; 
+  $regist_day = date("Y-m-d (H:i)");  // 현재의 '년-월-일-시-분'을 저장
+  
+  
+  $con = mysqli_connect(DBhost, DBuser, DBpass, DBname); // 02/21개 수정
+  
+  $sql = "insert into members(id, pass, name, email, regist_day, level, point) "; 
+  $sql .= "values('$id', '$pass', '$name', '$email', '$regist_day', 9, 0)";
+  
+  mysqli_query($con, $sql);  // $sql 에 저장된 명령 실행 
+  mysqli_close($con);
+  
+  echo " 
+      <script>   
+          location.href = '../index.php';
+          //location.href = '../index2.php';
+          //아직 코딩되지 않은 부분이라서 나중에 수정
+          //location.href = 'login_form.php'; 
+      </script> 
+  "; 
+?>      
