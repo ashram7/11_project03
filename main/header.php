@@ -13,10 +13,10 @@
 ?>		 
         <div id="top"> 
             <h1> 
-                <a href="../index.php">H &dot; SCHOOL</a> 
+                <a href="../main/index.php">H &dot; SCHOOL</a> 
             </h1> 
             <h2> 
-                <a href="../index.php">&nbsp;|&nbsp;PHP Programming</a> 
+                <a href="../main/index.php">&nbsp;|&nbsp;PHP Programming</a> 
             </h2> 
             <ul id="top_menu">   
 <?php 
@@ -49,9 +49,9 @@
         </div> 
         <div id="menu_bar"> 
             <ul>   
-                <li><a href="../index.php">HOME</a></li> 
+                <li><a href="../main/index.php">HOME</a></li> 
                 <li><a href="../message/message_form.php">쪽지 만들기(13Ch)</a></li> 
                 <li><a href="../board/board_form.php">게시판 만들기(14Ch)</a></li> 
-                <li><a href="../index.php">사이트 완성하기(15Ch)</a></li> 
+                <li><a href="../main/index.php">사이트 완성하기(15Ch)</a></li> 
             </ul> 
         </div>                              

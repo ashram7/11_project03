@@ -1,5 +1,5 @@
 <?php
-    include "include/define.php";
+    include "./include/define.php";
 
     session_start(); 
     if (isset($_SESSION["userid"])) $userid = $_SESSION["userid"]; 

@@ -22,7 +22,7 @@
   
   echo " 
       <script>   
-          location.href = '../index.php';
+          location.href = '../main/index.php';
           //location.href = '../index2.php';
           //아직 코딩되지 않은 부분이라서 나중에 수정
           //location.href = 'login_form.php'; 
