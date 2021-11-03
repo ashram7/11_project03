@@ -9,7 +9,7 @@
 </head>
 <body> 
 	<header>
-		<?php include "../include/header.php";?>
+		<?php include "../main/header.php";?>
 	</header>
 	<section>
 		<div id="main_img_bar">
