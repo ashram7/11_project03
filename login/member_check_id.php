@@ -50,7 +50,7 @@
 	?>
 	</p>
 	<div id="close">
-		<img src="../main/img/close.png" onclick="javascript:self.close()">
+		<img src="../main/img/close.png" onclick="javascript:self.close()" />
 	</div>
 </body>
 </html>
