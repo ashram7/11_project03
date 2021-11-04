@@ -12,9 +12,9 @@
 	</header>
 	<section>
 		<?php include "./main.php";?>
-	</section> 
+	</section>
 	<footer>
 		<?php include "./footer.php";?>
-	</footer>	
+	</footer>
 </body>
 </html>
