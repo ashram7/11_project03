@@ -140,7 +140,7 @@
 	</div> <!-- message_box -->
 </section> 
 <footer>
-    <?php include "../include/footer.php";?>
+    <?php include "../main/footer.php";?>
 </footer>
 </body>
 </html>
