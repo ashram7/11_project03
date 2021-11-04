@@ -49,8 +49,9 @@
           document.member_form.pass.select(); 
           return; 
       }
-  
-      document.member_form.submit(); 
+      <?php checkid();?>
+
+      document.member_form.submit();       
   }
 
   function reset_form() {
@@ -130,9 +131,9 @@
                   <div class="bottom_line"> </div> 
                   <div class="buttons"> 
                       <img style="cursor:pointer" src="../main/img/button_save.gif"
-                          onclick="check_input()">&nbsp; 
+                          onclick="check_input()" />&nbsp; 
                       <img id="reset_button" style="cursor:pointer" src="../main/img/button_reset.gif" 
-                          onclick="reset_form()"> 
+                          onclick="reset_form()" /> 
                   </div> 
               </form> 
           </div> <!-- join_box --> 
@@ -141,5 +142,32 @@
   <footer> 
       <?php include "../main/footer.php";?> 
   </footer> 
+
+<?php 
+  function checkid(){   
+    $con = mysqli_connect(DBhost, DBuser, DBpass, DBname);
+      session_start();
+    unset($_SESSION["userid"]);
+    unset($_SESSION["username"]);
+    unset($_SESSION["userlevel"]);
+    unset($_SESSION["userpoint"]);    
+    $id  = $_POST["id"];
+    $checkid = "select * from members where id='$userid'";
+    $result =  mysqli_query($con, $checkid);
+    $num_record = mysqli_num_rows($result);
+
+    if($num_record){
+      echo("
+          <script>
+              window.alert('아이디가 중복되었습니다! 다른 아이디를 사용해주세요.');
+              document.member_form.id.value = '';  
+              document.member_form.id.focus();
+          </script>
+      ");
+    }
+
+    mysqli_close($con);
+  }
+?>    
   </body> 
 </html>         
