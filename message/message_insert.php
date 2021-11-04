@@ -15,7 +15,7 @@
 		echo("
 			<script>
 				alert('로그인 후 이용해 주세요! ');
-				history.go(-1)
+				history.go(-1);
 			</script>
 			");
 		exit;
@@ -35,7 +35,7 @@
 		echo("
 			<script>
 				alert('수신 아이디가 잘못 되었습니다!');
-				history.go(-1)
+				history.go(-1);
 			</script>
 			");
 		exit;
