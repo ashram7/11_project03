@@ -43,7 +43,7 @@
 	$result = mysqli_query($con, $sql);
 
 	$row = mysqli_fetch_array($result);
-	$send_id      = $row["send_id"];
+	$send_id    = $row["send_id"];
 	$rv_id      = $row["rv_id"];
 	$subject    = $row["subject"];
 	$content    = $row["content"];
@@ -87,7 +87,7 @@
 	</div> <!-- message_box -->
 </section> 
 <footer>
-	<?php include "../include/footer.php";?>
+	<?php include "../main/footer.php";?>
 </footer>
 </body>
 </html>
