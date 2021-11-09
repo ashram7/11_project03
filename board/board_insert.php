@@ -12,8 +12,8 @@
 	{
 		echo("
 			<script>
-			alert('게시판 글쓰기는 로그인 후 이용해 주세요!');
-			history.go(-1)
+				alert('게시판 글쓰기는 로그인 후 이용해 주세요!');
+				history.go(-1)
 			</script>
 		");
 		exit;
@@ -49,8 +49,8 @@
 		if( $upfile_size  > 1000000 ) {
 			echo("
 				<script>
-				alert('업로드 파일 크기가 지정된 용량(1MB)을 초과합니다!<br>파일 크기를 체크해주세요! ');
-				history.go(-1)
+					alert('업로드 파일 크기가 지정된 용량(1MB)을 초과합니다!<br>파일 크기를 체크해주세요! ');
+					history.go(-1)
 				</script>
 			");
 			exit;
@@ -61,8 +61,8 @@
 		{
 			echo("
 				<script>
-				alert('파일을 지정한 디렉토리에 복사하는데 실패했습니다.');
-				history.go(-1)
+					alert('파일을 지정한 디렉토리에 복사하는데 실패했습니다.');
+					history.go(-1)
 				</script>
 			");
 			exit;
@@ -97,7 +97,8 @@
 
 	echo "
 		<script>
-		location.href = 'board_list.php';
+			location.href = 'board_list.php';
+			//location.href = '../main/index.php';
 		</script>
 	";
 ?>
