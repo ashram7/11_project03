@@ -11,10 +11,16 @@
 	  cursor:pointer;
 	}
 </style>
+<script>
+    function setParentText(){
+        opener.document.getElementById("pInput").value = document.getElementById("cInput").value
+    }
+</script>
 </head>
 <body>
 	<h3>아이디 중복체크</h3>
 	<p>
+	<input type="hidden" id="cInput" value="yes" />			
 	<?php
 		include "../include/define.php";
 
@@ -43,6 +49,7 @@
 			else
 			{
 				echo "<li>".$id." 아이디는 사용 가능합니다.</li>";
+				echo "<script>setParentText();</script>";
 			}
 
 			mysqli_close($con);
