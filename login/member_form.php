@@ -96,7 +96,7 @@
             <div class="form id"> 
               <div class="col1">아이디</div> 
               <div class="col2"> 
-                <input type="text" name="id"> 
+                <input type="text" id="id" name="id"> 
               </div>  
               <div class="col3"> 
                 <a href="#"><img src="../main/img/check_id.gif" onclick="check_id()"></a> 

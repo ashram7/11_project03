@@ -13,7 +13,8 @@
 </style>
 <script>
     function setParentText(){
-        opener.document.getElementById("pInput").value = document.getElementById("cInput").value
+        opener.document.getElementById("pInput").value = document.getElementById("cInput").value;
+        opener.document.getElementById("id").readOnly = true;
     }
 </script>
 </head>
