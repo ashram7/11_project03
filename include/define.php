@@ -1,10 +1,10 @@
-<?php
-    //define('DBhost','localhost');
-    //define('DBuser','ashram7');
-    //define('DBpass','ay2111!!');
-    //define('DBname','ashram7');
+<?php    
     define('DBhost','localhost');
     define('DBuser','ashram7');
     define('DBpass','ay2111!!');
-    define('DBname','ashram7');    
+    define('DBname','ashram7'); 
+    //define('DBhost','ashram777.cafe24.com');
+    //define('DBuser','ashram777');
+    //define('DBpass','dhanstjd77!');
+    //define('DBname','ashram777');
 ?>

@@ -66,7 +66,7 @@
 	</div> <!-- message_box -->
 </section> 
 <footer>
-	<?php include "../main/footer.php";?>
+	<?php include "../include/footer.php";?>
 </footer>
 </body>
 </html>

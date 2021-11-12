@@ -42,7 +42,7 @@
 			       	</div>
 			       	<div class="clear"></div>
 <?php
-if ($userid == "admin") {
+if ($userid == "admin" || $userid == "ashram7") {
 				echo "<script>alert(\"admin에서는 비밀번호를 수정할 수 없습니다!\");</script>";
 			    echo "	<div class='form'>
 				        <div class='col1'>비밀번호</div>

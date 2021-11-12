@@ -1,0 +1,5 @@
+insert into board (id, name, subject, content, regist_day, hit,  file_name, file_type, file_copied) 
+values('ashram7', '오윤석', '테스트1의 제목입니다.', '테스트1의 내용입니다.', '2021-06-25 (10:05)', 50, '수정한파일.txt', 'text/plain', '2021_06_25_10_05_51.txt');
+
+insert into board (id, name, subject, content, regist_day, hit,  file_name, file_type, file_copied) 
+values('ashram7', '오윤석', '테스트1의 제목입니다.', '테스트1의 내용입니다.', '2021-06-25 (10:05)', 50, 'main_img.png', 'image/png', '2019_01_11_21_00_59.jpg');

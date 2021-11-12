@@ -1,24 +1,24 @@
 <meta charset="utf-8" />
 <?php
-   include "../include/define.php";
-   
-   $id   = $_POST["id"];
-   $pass = $_POST["pass"];
+    include "../include/define.php";
 
-   $con = mysqli_connect(DBhost, DBuser, DBpass, DBname);
-   $sql = "select * from members where id='$id'";
-   $result = mysqli_query($con, $sql);
+    $id   = $_POST["id"];
+    $pass = $_POST["pass"];
 
-   $num_match = mysqli_num_rows($result);
+    $con = mysqli_connect(DBhost, DBuser, DBpass, DBname);
+    $sql = "select * from members where id='$id'";
+    $result = mysqli_query($con, $sql);
 
-   if(!$num_match) 
-   {
-     echo("
-           <script>
-             window.alert('등록되지 않은 아이디입니다!')
-             history.go(-1)
-           </script>
-         ");
+    $num_match = mysqli_num_rows($result);
+
+    if(!$num_match) 
+    {
+        echo("
+            <script>
+                window.alert('등록되지 않은 아이디입니다!')
+                history.go(-1)
+            </script>
+        ");
     }
     else
     {
@@ -30,13 +30,13 @@
         if($pass != $db_pass)
         {
 
-           echo("
-              <script>
-                window.alert('비밀번호가 틀립니다!')
-                history.go(-1)
-              </script>
-           ");
-           exit;
+            echo("
+                <script>
+                    window.alert('비밀번호가 틀립니다!')
+                    history.go(-1)
+                </script>
+            ");
+            exit;
         }
         else
         {
@@ -47,11 +47,11 @@
             $_SESSION["userpoint"] = $row["point"];
 
             echo("
-              <script>
-                // location.href = '../index.php';
-                location.href = '../main/index.php';
-              </script>
+                <script>
+                    // location.href = '../index.php';
+                    location.href = '../main/index.php';
+                </script>
             ");
         }
-     }        
+    }        
 ?>

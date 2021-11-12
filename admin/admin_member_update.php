@@ -3,7 +3,7 @@
 	
     session_start();
     if (isset($_SESSION["userlevel"])) $userlevel = $_SESSION["userlevel"];
-    else $userlevel = "";
+    else $userlevel = "";   
 
     if ( $userlevel != 1 )
     {
